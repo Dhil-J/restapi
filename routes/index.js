@@ -120,9 +120,9 @@ var title = "Dhil Rest API | Online API's Tools";
 	res.render('cuaca', {host: process.env.S_HOST, title: title})
   })
   
-  router.get('/doc/nulis' , (req, res) => {
+  /*router.get('/doc/nulis' , (req, res) => {
 	res.render('nulis', {host: process.env.S_HOST, title: title})
-  })
+  })*/
   
   router.get('/doc/yt', (req, res) => {
 	  res.render('yt', {host: process.env.S_HOST, title: title});
