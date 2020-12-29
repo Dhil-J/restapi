@@ -128,9 +128,9 @@ var title = "Dhil Rest API | Online API's Tools";
 	  res.render('yt', {host: process.env.S_HOST, title: title});
   })
   
-  router.get('/doc/igs', (req, res) => {
+  /*router.get('/doc/igs', (req, res) => {
 	  res.render('igs', {host: process.env.S_HOST, title: title});
-  })
+  })*/
   
   router.get('/doc/fb', (req, res) => {
 	  res.render('fb', {host: process.env.S_HOST, title: title});
